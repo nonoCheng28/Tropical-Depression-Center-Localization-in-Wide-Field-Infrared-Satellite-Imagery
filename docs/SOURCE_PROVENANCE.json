@@ -122,7 +122,9 @@
   {
     "destination": "src/td_center/reproduce/predict_arm_heatmaps.py",
     "origin": "experiments\\d_improve\\predict_arm_heatmaps.py",
-    "original_sha256": "60a243a2d85653279cb111ae62fa3c1832738701730a1972484753f40c23ee81"
+    "original_sha256": "60a243a2d85653279cb111ae62fa3c1832738701730a1972484753f40c23ee81",
+    "updated_original_sha256": "d109e64c2697f9f832ea8fd05b020e7b9503dd70953094c1c888703a59157106",
+    "update_note": "Checkpoint-matched default inference batch and recorded inference_batch_size; import/path adaptation retained."
   },
   {
     "destination": "src/td_center/reproduce/fair_compare.py",

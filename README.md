@@ -4,7 +4,7 @@ Source-only reproduction release for the manuscript's single-frame controls, sev
 
 This repository contains the implementations and frozen sample manifests needed to reproduce the reported measurements. It does not contain satellite observations, best-track archives, trained weights, heatmap caches, manuscript files, presentation assets, or historical exploratory models. You must supply the original course data and regenerate or supply compatible checkpoints. Publishing this source is not a claim that all experiments have been rerun in a clean environment.
 
-The release tracks the **local manuscript snapshot of 2026-11-06**. C1 and TCL-Net eight-fold comparisons were still running at packaging time; these missing results are not fabricated. See [the result-to-command map](docs/REPRODUCTION.md), [data requirements](docs/DATA.md), and [implementation limitations](docs/LIMITATIONS.md).
+The release tracks the **completed local manuscript snapshot of 2026-11-06**. All 24 supplemental C7-wide2/C1/TCL-Net folds and decoder summaries completed at 17:11 (Asia/Shanghai). See [the result-to-command map](docs/REPRODUCTION.md), [data requirements](docs/DATA.md), and [implementation limitations](docs/LIMITATIONS.md).
 
 ## Install
 

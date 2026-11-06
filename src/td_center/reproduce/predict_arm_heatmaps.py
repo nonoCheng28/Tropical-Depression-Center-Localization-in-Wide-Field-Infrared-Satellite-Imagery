@@ -45,7 +45,8 @@ def main():
     ap.add_argument("--out-name", default=None,
                     help="file stem (default heatmaps_<split>, LOYO folds use heatmaps_loyo<year>)")
     ap.add_argument("--device", default="cuda")
-    ap.add_argument("--batch-size", type=int, default=8)
+    ap.add_argument("--batch-size", type=int, default=None,
+                    help="default: checkpoint's recorded micro_batch, to reproduce its evaluation")
     args = ap.parse_args()
 
     run = Path(args.run)
@@ -73,7 +74,8 @@ def main():
             dataset = _IR(root, MANIFEST_DIR, "test", span=config.get("span", "6h"))
     else:
         dataset = datasets["val"]
-    loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False, num_workers=0)
+    inference_batch = args.batch_size or int(config.get("micro_batch", 8))
+    loader = DataLoader(dataset, batch_size=inference_batch, shuffle=False, num_workers=0)
     model = build_model(config).to(device)
     model.load_state_dict(checkpoint["model_state_dict"])
     model.eval()
@@ -109,7 +111,7 @@ def main():
             "argmax_MD_recomputed": metrics["mean_distance_deg"],
             "argmax_MD_recorded": None if args.split == "test" else recorded["mean_distance_deg"],
             "max_abs_drift_deg": None if args.split == "test" else drift,
-            "test_used": args.split == "test"}
+            "test_used": args.split == "test", "inference_batch_size": inference_batch}
     (dst / "source_run.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False),
                                          encoding="utf-8")
     print(f"{args.tag}: {len(heat)} frames; argmax MD {metrics['mean_distance_deg']:.4f}")

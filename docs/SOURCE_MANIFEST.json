@@ -13,8 +13,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5077,
-      "sha256": "f4778547b4c1945ad5e67325a695c7fa2d1e0e520c6e94b50227617c90f2d220"
+      "bytes": 5073,
+      "sha256": "359821d98ff6827ba94397c7ceca4a5702644f63a63c9707e0469861307b41f8"
     },
     {
       "path": "configs/checkpoints.example.json",
@@ -38,8 +38,8 @@
     },
     {
       "path": "docs/LIMITATIONS.md",
-      "bytes": 3032,
-      "sha256": "fe43659d19b8ebbef205ca87aa109308fae9c77f0e3e0bbb8ed70674cf889561"
+      "bytes": 3581,
+      "sha256": "305cbe28271b576a8888038f5cd73b7513e9c069fa4a6639b6921cb0fd009df6"
     },
     {
       "path": "docs/LOYO_PROTOCOL.md",
@@ -48,18 +48,18 @@
     },
     {
       "path": "docs/REPRODUCTION.md",
-      "bytes": 9059,
-      "sha256": "dfcd52bd9da35c62936a0665777137a2654b1089dd861093171244c809ce2e2a"
+      "bytes": 9427,
+      "sha256": "c090990894364d6554993ccfcdb8eacab313eaecc34a2bd005a30f3d0cd99fb4"
     },
     {
       "path": "docs/SOURCE_PROVENANCE.json",
-      "bytes": 15180,
-      "sha256": "5baefea3403d24ce392fd4298ae6635c0a137f400826c2d85bac8a3fb5d3d474"
+      "bytes": 15412,
+      "sha256": "ddd40c67015f590c1b11f1b394a32299abc9fe1ad2832d71d468990aaf263ae4"
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 1496,
-      "sha256": "e7cbeed5ca43735448f2bfdcc01470929c53fddecfc99c11227864a789e7cbd3"
+      "bytes": 2208,
+      "sha256": "97ffdb6dae296cc52d3070a157f181cb9dc0a726563d933cdb967ecd5deac9fe"
     },
     {
       "path": "pyproject.toml",
@@ -413,8 +413,8 @@
     },
     {
       "path": "src/td_center/reproduce/predict_arm_heatmaps.py",
-      "bytes": 6559,
-      "sha256": "1a85becafa2fc3199b21e2afb1b3d249c367ea48f77ce3d3569f527f10c23202"
+      "bytes": 6778,
+      "sha256": "e7319f355e5520e580de7288a7d2eeb66d75d135b298d8962ffde0a969704391"
     },
     {
       "path": "src/td_center/reproduce/predict_d_ensemble.py",

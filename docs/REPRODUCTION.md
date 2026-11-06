@@ -23,7 +23,7 @@ python -m td_center.reproduce train_d_v2 --year 2016 --epochs 44 --tag d_v2
 python -m td_center.reproduce train_d_v2 --year 2016 --epochs 44 --tag d_v3 --augment --spans 6h,12h,18h
 ```
 
-Repeat **exactly eight years**. Control LOYO uses `last.pt`; D/v2/v3 supplemental trainers also preserve `epoch44.pt`. None use the held-out year's minimum epoch. Leave optimizer/seed/loss defaults unchanged. v2: GroupNorm/dilated encoder + global context + focal loss, no augmentation. v3: same network/loss, mirror/translation/intensity and random 6h/12h/18h training span; no rotation, scale jitter, or dropout in the adopted configuration.
+Repeat **exactly eight years**. For heatmap export, omit `--batch-size` to use the checkpoint's recorded `micro_batch`; a different batch size can change argmax decisions on nearly tied heatmaps. The exporter checks drift against the recorded evaluation and writes the actual inference batch size. Control LOYO uses `last.pt`; D/v2/v3 supplemental trainers also preserve `epoch44.pt`. None use the held-out year's minimum epoch. Leave optimizer/seed/loss defaults unchanged. v2: GroupNorm/dilated encoder + global context + focal loss, no augmentation. v3: same network/loss, mirror/translation/intensity and random 6h/12h/18h training span; no rotation, scale jitter, or dropout in the adopted configuration.
 
 ## 2. Generate emissions without retraining
 
@@ -61,7 +61,7 @@ python -m td_center.reproduce evaluate --heatmaps outputs/artifacts/ens3_test/he
 
 Repeat with each arm's **normalized** heatmaps. Add `--candidate-coverage` to obtain the unmasked top-8 coverage column. Non-raw evaluations also report each storm's share of total absolute error; use the documented older `--sigma 2` setting to reproduce the LEEPI 71% contribution diagnostic. For raw fold caches pass `--normalize`; do not apply sigmoid retroactively to the stored fold logits. `--loyo-pattern` requires all eight manifests and reports unweighted year-macro MD/DR3. A held-out fold's cache may contain all training samples, but only that fold's frozen evaluation IDs enter its score.
 
-Current reference cells from completed archived computations (MD / DR@3): ens3 raw val 7.213 / 70.2%; C7-wide2 LOYO 7.896 / 59.2%; TCL-Net test 8.882 / 46.3%; v2 LOYO/test 10.869 / 61.9% and 4.718 / 79.3%; v3 LOYO/test 8.231 / 62.7% and 7.821 / 66.9%. These are reference checks, not outputs bundled in this source release. Missing C1/TCL-Net full LOYO rows remain unreported.
+Current reference cells from completed archived computations (MD / DR@3): ens3 raw val 7.213 / 70.2%; C7-wide2 LOYO 7.896 / 59.2%; TCL-Net test 8.882 / 46.3%; v2 LOYO/test 10.869 / 61.9% and 4.718 / 79.3%; v3 LOYO/test 8.231 / 62.7% and 7.821 / 66.9%. These are reference checks, not outputs bundled in this source release. The completed C1 and TCL-Net LOYO rows are 11.322 / 44.3% and 10.084 / 44.4%, respectively; each uses all eight years and 805 held-out evaluation samples.
 
 ## 4. Decoder, mask, placebo and component ablations
 
