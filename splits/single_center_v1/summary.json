@@ -1,0 +1,21 @@
+{
+  "manifest_version": "single_center_v1",
+  "selection_rule": "keep samples with exactly one non-empty TD_center YOLO label line",
+  "splits": {
+    "train": {
+      "total": 856,
+      "included": 805,
+      "excluded": 51
+    },
+    "val": {
+      "total": 98,
+      "included": 94,
+      "excluded": 4
+    },
+    "test": {
+      "total": 121,
+      "included": 121,
+      "excluded": 0
+    }
+  }
+}

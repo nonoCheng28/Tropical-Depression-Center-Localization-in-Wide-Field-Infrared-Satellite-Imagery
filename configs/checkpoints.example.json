@@ -1,0 +1,5 @@
+{
+  "D": {"arch":"d","activation":"identity","checkpoints":["../runs/D_FORMAL/best.pt"]},
+  "v2": {"arch":"v2","activation":"sigmoid","checkpoints":["../runs/d_improve/V2_2016/epoch44.pt","../runs/d_improve/V2_2017/epoch44.pt","../runs/d_improve/V2_2018/epoch44.pt","../runs/d_improve/V2_2019/epoch44.pt","../runs/d_improve/V2_2020/epoch44.pt","../runs/d_improve/V2_2021/epoch44.pt","../runs/d_improve/V2_2022/epoch44.pt","../runs/d_improve/V2_2023/epoch44.pt"]},
+  "v3": {"arch":"v2","activation":"sigmoid","checkpoints":["../runs/d_improve/V3_2016/epoch44.pt","../runs/d_improve/V3_2017/epoch44.pt","../runs/d_improve/V3_2018/epoch44.pt","../runs/d_improve/V3_2019/epoch44.pt","../runs/d_improve/V3_2020/epoch44.pt","../runs/d_improve/V3_2021/epoch44.pt","../runs/d_improve/V3_2022/epoch44.pt","../runs/d_improve/V3_2023/epoch44.pt"]}
+}

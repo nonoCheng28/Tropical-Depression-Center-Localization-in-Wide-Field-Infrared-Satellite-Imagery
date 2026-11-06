@@ -1,0 +1,19 @@
+{
+  "role": "advanced",
+  "input_size": 320,
+  "heatmap_size": 80,
+  "coordinate_span_degrees": 70,
+  "emission_weights": [0.3333333333333333, 0.3333333333333333, 0.3333333333333333],
+  "normalization": "per-frame minmax per emission before mean",
+  "alpha": 1.5,
+  "sigma_cells": 3,
+  "min_other_storm_separation_degrees": 5,
+  "max_other_storms": 2,
+  "peak_count": 8,
+  "peak_separation_degrees": 3,
+  "kappa": 0.003,
+  "decode_scope": "whole trajectory, offline",
+  "loyo_years": [2016,2017,2018,2019,2020,2021,2022,2023],
+  "loyo_epochs": 44,
+  "loyo_checkpoint": "final epoch; held-out year never selects weights"
+}

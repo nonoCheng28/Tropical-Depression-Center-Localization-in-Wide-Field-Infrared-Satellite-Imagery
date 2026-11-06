@@ -1,0 +1,37 @@
+{
+  "role": "core",
+  "model": "DModel original hidden=64",
+  "input": "Multiple_frames_6h",
+  "delta_hours": 1,
+  "input_size": 320,
+  "heatmap_size": 80,
+  "sigma": 2.0,
+  "normalization": "publisher_prescaled_identity_no_extra_standardization",
+  "augmentation": false,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "max_epochs": 50,
+  "patience": 10,
+  "effective_batch_size": 16,
+  "seed": 42,
+  "scheduler": null,
+  "loss": "mean_of_per_sample_weighted_mse",
+  "loss_alpha": 100.0,
+  "decoder": "argmax_half_pixel",
+  "metrics": "planar_lonlat_degrees_v1",
+  "metric_status": "explicit implementation of 2026-10-03 proposal; cross-model agreement not evidenced",
+  "metric_formulas": {
+    "detection_rate_at_3deg": "mean(distance<=3), fraction [0,1]",
+    "mean_distance_deg": "mean(sqrt(dlon^2+dlat^2))",
+    "mae_deg": "mean((abs(dlon)+abs(dlat))/2)",
+    "rmse_deg": "sqrt(mean((dlon^2+dlat^2)/2))"
+  },
+  "comparison_notes": "Identity preprocessing preserves existing D inputs. Share across A/B/C/D. Weighted MSE alpha=100 follows D debug; use same loss across heatmap models or disclose difference. Final partial accumulation window uses actual sample count.",
+  "manifest_sha256": {
+    "train": "ab09ffbe0e3ee830972211d90349401e8de83851fa2062cb07b60a6c75912fe3",
+    "val": "64841b83a7bc4f8991b8457d1c4ee7431ee5e81433857a50c8d7b71efede6c47"
+  },
+  "manifest_hash_encoding": "UTF-8, LF line endings, one trailing newline",
+  "protocol_reference": "README.md#frozen-protocol"
+}

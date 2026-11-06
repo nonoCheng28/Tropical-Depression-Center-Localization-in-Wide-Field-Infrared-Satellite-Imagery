@@ -1,0 +1,372 @@
+[
+  {
+    "destination": "src/td_center/__init__.py",
+    "origin": "src\\td_center\\__init__.py",
+    "original_sha256": "e88d7dfa83666d47af09ea91f82e62e4e0a328445cbf0228b709ae2ad0e2bedf"
+  },
+  {
+    "destination": "src/td_center/ConvLSTM.py",
+    "origin": "src\\td_center\\ConvLSTM.py",
+    "original_sha256": "72c5038e60c8eda587ce5938e84847cc1515ba13aca36fbfb24514aa113f9735"
+  },
+  {
+    "destination": "src/td_center/candidates.py",
+    "origin": "src\\td_center\\candidates.py",
+    "original_sha256": "2c9e161e0dee428d0da910bc7323553dbae95ff63eb4efe344479b905fad50bf"
+  },
+  {
+    "destination": "src/td_center/dataloader.py",
+    "origin": "src\\td_center\\dataloader.py",
+    "original_sha256": "443fbdab861c5bba0116fb9292a10b054a39963dbd03de0d097639815a5eb44b"
+  },
+  {
+    "destination": "src/td_center/encoder.py",
+    "origin": "src\\td_center\\encoder.py",
+    "original_sha256": "5ec86c5eb47643db863865568ddff024be5b2e1b794ed8d6e6c3cc133299968f"
+  },
+  {
+    "destination": "src/td_center/head.py",
+    "origin": "src\\td_center\\head.py",
+    "original_sha256": "16daec5d708495f01863bfad6fe8120587e1ad7f0442f8ad20f514f6e7276040"
+  },
+  {
+    "destination": "src/td_center/heatmap.py",
+    "origin": "src\\td_center\\heatmap.py",
+    "original_sha256": "e46cfb86ae9088429041dff0ff752e18c76904d0d780206a1efcee509f2c965b"
+  },
+  {
+    "destination": "src/td_center/losses.py",
+    "origin": "src\\td_center\\losses.py",
+    "original_sha256": "f53e3a85cb98ac531302768b0ae7431d8811035cf8eb5d112eaa9ae491efd155"
+  },
+  {
+    "destination": "src/td_center/metrics.py",
+    "origin": "src\\td_center\\metrics.py",
+    "original_sha256": "2b2c09a71e05dd6592a5f570e681da13c767cdfd186267b333be3f11c8281c18"
+  },
+  {
+    "destination": "src/td_center/model_b.py",
+    "origin": "src\\td_center\\model_b.py",
+    "original_sha256": "e4d93b057eb053325729083a5268da5d01dc1b37d2445644f58d724292c65889"
+  },
+  {
+    "destination": "src/td_center/model_c.py",
+    "origin": "src\\td_center\\model_c.py",
+    "original_sha256": "a6c10b0055c55dbc540767154a3e772332772577b6236baed925fc6361fd43ba"
+  },
+  {
+    "destination": "src/td_center/model_d.py",
+    "origin": "src\\td_center\\model_d.py",
+    "original_sha256": "0c7d6aea8db0444a9e1ebdaaff8f16d2aae42410dae0105ebdba7d7e4633f5aa"
+  },
+  {
+    "destination": "src/td_center/model_tclnet.py",
+    "origin": "src\\td_center\\model_tclnet.py",
+    "original_sha256": "8d43dcb3ea70c4b9c132d27c4e0e1946cf320b466f536901ad2532e04588600b"
+  },
+  {
+    "destination": "src/td_center/training.py",
+    "origin": "src\\td_center\\training.py",
+    "original_sha256": "dff3cc636dd9bdd382c7e936e51164178b3d94f18488a547faacdcbb01e7157e"
+  },
+  {
+    "destination": "src/td_center/spatial_context.py",
+    "origin": "src\\td_center\\spatial_context.py",
+    "original_sha256": "731497a2a8ed85927ffac58d244a2b29e7f070e92cb04eac1d56ab9c0cc0262a"
+  },
+  {
+    "destination": "src/td_center/distance_comparison.py",
+    "origin": "src\\td_center\\distance_comparison.py",
+    "original_sha256": "5e4acfaabdf98092aff86946b0f99758f159b4d761de4159618e8f582d179d42"
+  },
+  {
+    "destination": "src/td_center/reproduce/common.py",
+    "origin": "experiments\\d_improve\\common.py",
+    "original_sha256": "c8e1766d793bc6aea32dd72e9365fdb7f3710d8b7676d03bf1ab2e06429db38e"
+  },
+  {
+    "destination": "src/td_center/reproduce/besttrack.py",
+    "origin": "experiments\\d_improve\\besttrack.py",
+    "original_sha256": "119739d0d73f38ac96ed25b4bf69cb86436c7e78bffc1e99c735593a67c6c8ca"
+  },
+  {
+    "destination": "src/td_center/reproduce/deliver_aided.py",
+    "origin": "experiments\\d_improve\\deliver_aided.py",
+    "original_sha256": "b9a1dc8181ed19ff3fdc28af3120431d268a081735e25cbda83e568d228a96eb"
+  },
+  {
+    "destination": "src/td_center/reproduce/eval_viterbi_decoder.py",
+    "origin": "experiments\\d_improve\\eval_viterbi_decoder.py",
+    "original_sha256": "6d6f11755bffbe84f8db9d6bcdcae14b014c1720245ffba7fa709cbb87249a9c"
+  },
+  {
+    "destination": "src/td_center/reproduce/train_loyo_fold.py",
+    "origin": "experiments\\d_improve\\train_loyo_fold.py",
+    "original_sha256": "3989b32ce34e9d5255b13e7935eada6d8e111d7de14f108c803aed378d78e9c2"
+  },
+  {
+    "destination": "src/td_center/reproduce/train_d_v2.py",
+    "origin": "experiments\\d_improve\\train_d_v2.py",
+    "original_sha256": "f421d254df8a2a542319f293efe3bf28f549363c551bd6db75810c438ab2ec32"
+  },
+  {
+    "destination": "src/td_center/reproduce/predict_d_ensemble.py",
+    "origin": "experiments\\d_improve\\predict_d_ensemble.py",
+    "original_sha256": "c2d4700755119d691af928b12fa145ed0b47407d2968e6f828057f52aa34ee93"
+  },
+  {
+    "destination": "src/td_center/reproduce/combine_holdout.py",
+    "origin": "experiments\\d_improve\\combine_holdout.py",
+    "original_sha256": "dea29f41bb6d33cfbd897f951d29c057dee851d560d4749a567102680e5a9174"
+  },
+  {
+    "destination": "src/td_center/reproduce/predict_arm_heatmaps.py",
+    "origin": "experiments\\d_improve\\predict_arm_heatmaps.py",
+    "original_sha256": "60a243a2d85653279cb111ae62fa3c1832738701730a1972484753f40c23ee81"
+  },
+  {
+    "destination": "src/td_center/reproduce/fair_compare.py",
+    "origin": "experiments\\d_improve\\fair_compare.py",
+    "original_sha256": "d52d8e14c41388160095cf2e1cc5581d7e32f6200d5eae8b733398c7b59b4619"
+  },
+  {
+    "destination": "src/td_center/reproduce/fair_compare_pipeline.py",
+    "origin": "experiments\\d_improve\\fair_compare_pipeline.py",
+    "original_sha256": "d0001282d6f656bfd43c4377e146a09afb995d727e0436f6fa2555f7b60955f1"
+  },
+  {
+    "destination": "src/td_center/reproduce/fair_compare_loyo.py",
+    "origin": "experiments\\d_improve\\fair_compare_loyo.py",
+    "original_sha256": "47ad358f440feb9d1e4ed1ed85b98f67c8e7bdb36c8f41957e6300cdfd778aeb"
+  },
+  {
+    "destination": "src/td_center/reproduce/eval_heat_ensemble.py",
+    "origin": "experiments\\d_improve\\eval_heat_ensemble.py",
+    "original_sha256": "bf692d8596115739032f21675b375250f8ca41a8bee63d34815734f3fd8d89a0"
+  },
+  {
+    "destination": "src/td_center/reproduce/report_ensemble_kappa.py",
+    "origin": "experiments\\d_improve\\report_ensemble_kappa.py",
+    "original_sha256": "b271a193a99427e276fd5490fe1f8cf40a6e87b264b6db828edb6c8510d95d96"
+  },
+  {
+    "destination": "src/td_center/reproduce/decoder_ablation.py",
+    "origin": "paper/ablate_decoder.py",
+    "original_sha256": "804b43421d4f1b478f60e06419780106852ecc7c83fa0c718cda6fe49f93ea2b"
+  },
+  {
+    "destination": "src/td_center/reproduce/kappa_curve.py",
+    "origin": "paper/kappa_curve.py",
+    "original_sha256": "9834b4215419644b0040a2e9555987a4e7e651457e0b3266c30c4bb034b0d01e"
+  },
+  {
+    "destination": "src/td_center/reproduce/nested_kappa.py",
+    "origin": "paper/nested_kappa.py",
+    "original_sha256": "7d707004d1ed4d582670d069493267c68367a2bcecf245834964fd80dc652f93"
+  },
+  {
+    "destination": "src/td_center/reproduce/figure_emissions.py",
+    "origin": "paper/make_fig3.py",
+    "original_sha256": "5cee0e81bf77504591365cbf19241a8407767dbb90267a50db35de71324e13a4"
+  },
+  {
+    "destination": "src/td_center/reproduce/figure_interference.py",
+    "origin": "paper/make_fig4.py",
+    "original_sha256": "6c90f9f4bcca6b2f79fcfc4b3b58f2f7848a17eb7f7a2d4bfd9deb44162bdba0"
+  },
+  {
+    "destination": "src/td_center/holdout/hsd.py",
+    "origin": "independent-data-builder/hsd.py",
+    "original_sha256": "a57971bcc596038a9dfa178fc9d60349840ba7dbeca678e7588118a66d6ad74f"
+  },
+  {
+    "destination": "src/td_center/holdout/ahipipe.py",
+    "origin": "independent-data-builder/ahipipe.py",
+    "original_sha256": "4b7a54549d5cd608df7d0cae747a2a5b08c3567c2b7dd2a7bf050b89071651ce"
+  },
+  {
+    "destination": "src/td_center/holdout/build_dataset.py",
+    "origin": "independent-data-builder/build_dataset.py",
+    "original_sha256": "056d7414c52e9b51391f17913cb124080a53a2db43123f41957e847b3467909a"
+  },
+  {
+    "destination": "src/td_center/holdout/merge_multi_center.py",
+    "origin": "independent-data-builder/merge_multi_center.py",
+    "original_sha256": "a3686ffc77b463046f7daeee3747370633143187dab9f13cdd662d0f2fa18f42"
+  },
+  {
+    "destination": "src/td_center/holdout/move_excluded.py",
+    "origin": "independent-data-builder/move_excluded.py",
+    "original_sha256": "9a73137a2d244e8daf269b2c8142359b94345d375e53fd6974dd716b055d5286"
+  },
+  {
+    "destination": "src/td_center/holdout/make_split.py",
+    "origin": "independent-data-builder/make_split.py",
+    "original_sha256": "6f1b345ef3282286d33921ac4218b84242e4d29259912715f1b6911b1968b866"
+  },
+  {
+    "destination": "src/td_center/holdout/verify_dataset.py",
+    "origin": "independent-data-builder/verify_dataset.py",
+    "original_sha256": "f67619222b6996ca57583e36a3253e2ae6fb2b95fa597a964a06a3393be8ed4e"
+  },
+  {
+    "destination": "src/td_center/holdout/eval_holdout.py",
+    "origin": "independent-data-builder/eval_holdout.py",
+    "original_sha256": "043876f92342bcec5249daf8e980d253b209d0a313a1b925c8ec7215d74c4007"
+  },
+  {
+    "destination": "splits/single_center_v1/excluded_multi_center.txt",
+    "origin": "splits\\single_center_v1\\excluded_multi_center.txt",
+    "original_sha256": "fdf4b9055ec35f55400c876d263baaac2a3ec8ef9a89468918ebb2ffd3fe189b"
+  },
+  {
+    "destination": "splits/single_center_v1/README.md",
+    "origin": "splits\\single_center_v1\\README.md",
+    "original_sha256": "0d234e84cd4d2992ccbcbdb270dbf35f671db7dacaefdc85d049b53e7fbbddb0"
+  },
+  {
+    "destination": "splits/single_center_v1/summary.json",
+    "origin": "splits\\single_center_v1\\summary.json",
+    "original_sha256": "9d8f0636057dbde69b413370910b2801c47cc123b5e887ea47c135dc6091027a"
+  },
+  {
+    "destination": "splits/single_center_v1/test.txt",
+    "origin": "splits\\single_center_v1\\test.txt",
+    "original_sha256": "9947229798869056e22c9e7359ebe80812346d0c6b2f6db305a09dbad1264ac0"
+  },
+  {
+    "destination": "splits/single_center_v1/train.txt",
+    "origin": "splits\\single_center_v1\\train.txt",
+    "original_sha256": "53afaedeadee508fe91b169f3ad69dee4805abf04e262d0cf5dab2ae412060c8"
+  },
+  {
+    "destination": "splits/single_center_v1/val.txt",
+    "origin": "splits\\single_center_v1\\val.txt",
+    "original_sha256": "43d2169a5d436a4ea6693a4809ee0f158838fcebe27f872436759fee8dcc4efc"
+  },
+  {
+    "destination": "splits/loyo/2016_eval.txt",
+    "origin": "splits\\loyo\\2016_eval.txt",
+    "original_sha256": "1183f13ddf7813162528856910e84979c4447728289241de60b5b9adb4c8c842"
+  },
+  {
+    "destination": "splits/loyo/2016_train.txt",
+    "origin": "splits\\loyo\\2016_train.txt",
+    "original_sha256": "c4ac6d97a9025b80e91e5c1e6c01c81ba450d90dfb850f0a105bcc48c1bece20"
+  },
+  {
+    "destination": "splits/loyo/2017_eval.txt",
+    "origin": "splits\\loyo\\2017_eval.txt",
+    "original_sha256": "66aeed1c293fa967f99772dece58d2b157527816b94ecc1adde713338344f533"
+  },
+  {
+    "destination": "splits/loyo/2017_train.txt",
+    "origin": "splits\\loyo\\2017_train.txt",
+    "original_sha256": "26b5600d7b5895190d1360c09acb2a90463190a785841b9f3074faa2b2eb7d0b"
+  },
+  {
+    "destination": "splits/loyo/2018_eval.txt",
+    "origin": "splits\\loyo\\2018_eval.txt",
+    "original_sha256": "67f604c684c7decba565d4d8be53db32fe702d754afd8536d6d66a6c07fa2496"
+  },
+  {
+    "destination": "splits/loyo/2018_train.txt",
+    "origin": "splits\\loyo\\2018_train.txt",
+    "original_sha256": "674b07766b88ada600942e6e15afa853e191cf37e7e7c6927a1d907cf51bbe0d"
+  },
+  {
+    "destination": "splits/loyo/2019_eval.txt",
+    "origin": "splits\\loyo\\2019_eval.txt",
+    "original_sha256": "56e754f256e7442a283ed2e0e3d58e884d5b234fe16df3b4a6ca2672c78ce01e"
+  },
+  {
+    "destination": "splits/loyo/2019_train.txt",
+    "origin": "splits\\loyo\\2019_train.txt",
+    "original_sha256": "450191741eb2c9d2fda513fd906c51452c953df53652831dc2364c9ea11cebce"
+  },
+  {
+    "destination": "splits/loyo/2020_eval.txt",
+    "origin": "splits\\loyo\\2020_eval.txt",
+    "original_sha256": "8fd280de7e94e8aedab67ca0864d2801c92db5a7561a27bce1b4306b2937c7b9"
+  },
+  {
+    "destination": "splits/loyo/2020_train.txt",
+    "origin": "splits\\loyo\\2020_train.txt",
+    "original_sha256": "506b18ae63f66757979df49e0a9a066c7b9096021a0a134636360625a2cba00e"
+  },
+  {
+    "destination": "splits/loyo/2021_eval.txt",
+    "origin": "splits\\loyo\\2021_eval.txt",
+    "original_sha256": "8f1c0e093e1a0d14f2762a5ca7256db21d8a1d78e10153117e604af31029337d"
+  },
+  {
+    "destination": "splits/loyo/2021_train.txt",
+    "origin": "splits\\loyo\\2021_train.txt",
+    "original_sha256": "3b8e11da2177d1b4079e89d2ed6cc11ad346d1d90967d573280fe3121510937c"
+  },
+  {
+    "destination": "splits/loyo/2022_eval.txt",
+    "origin": "splits\\loyo\\2022_eval.txt",
+    "original_sha256": "70e4a58b86c661df7913774431594e8077e508b6de264b4fd099700f99c32a38"
+  },
+  {
+    "destination": "splits/loyo/2022_train.txt",
+    "origin": "splits\\loyo\\2022_train.txt",
+    "original_sha256": "f59cbb2184e5866b978f40a80726a7f8c54b313bc80cb516938a3a6bfd4d51ae"
+  },
+  {
+    "destination": "splits/loyo/2023_eval.txt",
+    "origin": "splits\\loyo\\2023_eval.txt",
+    "original_sha256": "b0108252582ad5bdc58598b1246d84f72c58a1a7bce4b5dc237fbaaa899424d2"
+  },
+  {
+    "destination": "splits/loyo/2023_train.txt",
+    "origin": "splits\\loyo\\2023_train.txt",
+    "original_sha256": "ed7160c35a8cea394d30fc78ced351a82f02b228e31a142aff262927c749283e"
+  },
+  {
+    "destination": "splits/independent_2015/eval.txt",
+    "origin": "independent-data-builder/eval.txt",
+    "original_sha256": "d592f8dcd78001346607d0e8e6ca0264ad8d9899e87da5c10afb05224a4d9b9f"
+  },
+  {
+    "destination": "splits/independent_2026/eval.txt",
+    "origin": "independent-data-builder/eval.txt",
+    "original_sha256": "5452546013f502b6cbc222a7f142b978d7aedebb36bcddfa35855044b4304019"
+  },
+  {
+    "destination": "configs/d_first_round.json",
+    "origin": "configs\\d_first_round.json",
+    "original_sha256": "be4f6d29ba87d9f1e3b080b2bc4576dc5a928f6ac876277b75216a8699663b85"
+  },
+  {
+    "destination": "pyproject.toml",
+    "origin": "pyproject.toml",
+    "original_sha256": "5af2f4db9f2d3e2633019d17f116a2333f99f7eb8fdb14304f3643f65ad3e273"
+  },
+  {
+    "destination": "tests/test_formal_training.py",
+    "origin": "tests\\test_formal_training.py",
+    "original_sha256": "9477e9c5f2a8bc42e9ae83fc48c7aaf7090d6a6045448902073fbc7d429a9bfc"
+  },
+  {
+    "destination": "tests/test_candidates.py",
+    "origin": "tests\\test_candidates.py",
+    "original_sha256": "c20af8000c13282b6a6e59308702b33b31e94592964ac988b1f357235bf80714"
+  },
+  {
+    "origin": "scripts/data/build_single_center_manifest.py",
+    "destination": "scripts/data/build_single_center_manifest.py",
+    "original_sha256": "ff1f2250afbbdffbb3176560f3a6bfcd723a5acc8345ba5a49006ed5f833e92f"
+  },
+  {
+    "origin": "splits/single_center_v1/metadata.csv",
+    "destination": "splits/single_center_v1/metadata.csv",
+    "original_sha256": "51542e66526c41870e7a7745d6d538dc3318429383678e478382ea0cecead062"
+  },
+  {
+    "origin": "experiments/d_improve/build_loyo_manifests.py",
+    "destination": "src/td_center/reproduce/build_loyo_manifests.py",
+    "original_sha256": "3e76c54923178e7253aecd4b69a3843ca7170f65dc3fa0fc2eefd55624bfe0fb"
+  }
+]
